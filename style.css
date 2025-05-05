@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    background-color: #fff8dc;
+    color: #5c3b1e;
+  }
+  
+  header {
+    background-color: #ffcc70;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    font-family: 'Chewy', cursive;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #d2691e;
+    text-shadow: 2px 2px #fff;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'Fredoka', sans-serif;
+  }
+  
+  .img-topo {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #f4a460;
+    box-shadow: 0 0 20px #ffb347;
+  }
+  
+  nav {
+    background-color: #f4a460;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  section {
+    flex: 1 1 60%;
+    padding: 10px;
+  }
+  
+  aside {
+    flex: 1 1 30%;
+    padding: 10px;
+    background-color: #ffe4b5;
+    border-left: 2px dashed #d2691e;
+  }
+  
+  article {
+    background-color: #fff0d9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  h2, h3 {
+    font-family: 'Fredoka', sans-serif;
+  }
+  
+  .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9933;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    font-family: 'Fredoka', sans-serif;
+  }
+  
+  .botao:hover {
+    background-color: #e67300;
+  }
+  
+  footer {
+    background-color: #ffd9a0;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    font-family: 'Comic Neue', cursive;
+  }
+  
